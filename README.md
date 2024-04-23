@@ -6,6 +6,12 @@ Author: Murat Buyukyoruk
 
 This script is developed to generate a dataframe by using the MSA file that can be used with Phylo_2_genemap script. 
 
+### Installation
+
+Clone this repository to your computer and add directory to the path ($PATH). Make sure you installed the dependency modules, including tqdm, biopython and pandas. [See dependency modules section.](#MSA2genemap-dependencies)
+
+### Usage
+
 Syntax (one of the command lines from simpler to more advanced):
 
     python MSA2genemap.py -i demo.fasta -o out.txt                                                          #This will generate a dataframe to visualize all residues of an alignment.
@@ -68,13 +74,13 @@ Example output:
 
 ![example_out.png](example_out.png)
 
-### MSA2genemap dependencies:
+### MSA2genemap dependencies
 
 R                                                       refer to https://rstudio-education.github.io/hopr/starting.html
 
 tqdm                                                    refer to https://pypi.org/project/tqdm/
 
-ali2csv                                                 provided in this repository
+ali2csv                                                 [provided in this repo](ali2csv.py)                              
 
 pandas                                                  refer to https://pandas.pydata.org/
 
